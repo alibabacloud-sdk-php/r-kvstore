@@ -5,8 +5,8 @@ namespace AlibabaCloud\RKvstore;
 use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * @deprecated
+ * @method static V20150101\RKvstoreApiResolver v20150101()
  */
-class RKvstoreVersion extends VersionResolver
+class RKvstore extends VersionResolver
 {
 }
